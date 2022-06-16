@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../styles/Global";
 import "../styles/App.css";
 
@@ -9,6 +8,8 @@ const LandingPage = ({
   banner,
   reverse,
 }) => {
+
+  
   return (
     <>
       <div
