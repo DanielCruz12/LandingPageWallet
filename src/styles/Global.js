@@ -10,7 +10,9 @@ const styles = {
   
     textLeft: "text-left",
     textRight: "text-right",
-  
+
+    a: "no-underline font-bold font-IBMPlex text-1xl sm:text-4xl minmd:text-6xl minlg:text-8xl leading-12 minmd:leading-13",
+
     h1Text:
       "font-bold font-IBMPlex text-5xl sm:text-4xl minmd:text-6xl minlg:text-8xl leading-12 minmd:leading-13",
     pText:
@@ -24,7 +26,7 @@ const styles = {
     btnBlack:
       "bg-black flex items-center py-2 px-4 rounded-md mt-2 w-fit cursor-pointer",
   
-    section: "flex justify-center items-center p-16 sm:p-8",
+    section: "flex justify-center items-center p-8 sm:p-8",
     subSection: "flex items-center w-full minmd:w-3/4",
     descDiv: "flex-1 w-full flex justify-start flex-col md:mb-10 ",
   

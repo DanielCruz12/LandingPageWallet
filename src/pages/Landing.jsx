@@ -38,7 +38,7 @@ const Landing = ({title,
          
       </div>
 
-      <div className={`flex-1 ${styles.flexCenter} p-8 sm:px-0`}>
+      <div className={`flex-1 ${styles.flexCenter} p-40 sm:px-0`}>
         <img
           src={mockupImg}
           className={`

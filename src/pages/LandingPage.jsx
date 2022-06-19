@@ -1,6 +1,8 @@
 import styles from "../styles/Global";
 import "../styles/App.css";
 import Button from "../components/button/Button";
+import Helmet from "react-helmet";
+
 
 const LandingPage = ({
   title,
@@ -14,6 +16,10 @@ const LandingPage = ({
 
   return (
     <>
+    <Helmet>
+    <title>Wallet</title>
+    </Helmet>
+
       <div
         className={`min-h-screen ${styles.section} ${styles.bgWhite}
       ${banner}`}
@@ -38,12 +44,12 @@ const LandingPage = ({
               className={`${styles.descriptionText} ${ styles.whiteText
               }`}
             >
-              {description} <a href={Link} target="_blank" style={{color: "black"}} rel="noreferrer">the project website</a>
+              {description} <a href={Link} target="_blank" className={`${styles.a}`}rel="noreferrer" >the project website</a>
             </p>
-              {showBtn && <Button Link="deplopyed" />}
+              <Button/>
           </div>
 
-          <div className={`flex-1 ${styles.flexCenter} p-8 sm:px-0`}>
+          <div className={`flex-2 ${styles.flexCenter} p-12 sm:px-0`}>
             <img
               src={mockupImg}
               className={`
